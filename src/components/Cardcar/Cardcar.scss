@@ -1,0 +1,27 @@
+.card-body {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+
+  .card-title {
+    text-align: center;
+  }
+  .img-cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+      width: 9rem;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  }
+
+  .btn-buy {
+    display: flex;
+    justify-content: center;
+  }
+}
