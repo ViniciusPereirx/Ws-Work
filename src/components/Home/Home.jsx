@@ -4,7 +4,7 @@ import Navigation from "../Navbar/Navbar";
 
 import "./Home.scss";
 
-//Função criada para buscar os dados da Api db.json através do axios
+//Função criada para buscar os dados da Api db.json através do axios.
 async function HomeCars() {
   const { data } = await axios.get("http://localhost:5000/stocks");
 

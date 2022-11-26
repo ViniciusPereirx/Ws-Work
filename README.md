@@ -4,7 +4,7 @@
 
 In the project directory, you can run:
 
-### `npm init`
+### `npm install`
 
 ### `npm run dev`
 
